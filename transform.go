@@ -51,8 +51,13 @@ func Transform(data []byte, grayscale bool, scale ScaleFunc) (out image.Image, w
 	case Bmp:
 		img, err = bmp.Decode(imagefile)
 	case Heif:
-		return TransformHeif(data, grayscale, scale)
+		fmt.Println(format)
+		o, w, h, sf, err := TransformHeif(data, grayscale, scale)
+		fmt.Println("error:")
+		fmt.Println(err)
+		return o, w, h, sf, err
 	default:
+		fmt.Println(format)
 		err = image.ErrFormat
 	}
 	if err != nil {

@@ -3,6 +3,7 @@ package imagecoding
 import (
 	"bytes"
 	"errors"
+	"fmt"
 	"image"
 	"image/color"
 	"image/gif"
@@ -25,6 +26,8 @@ func Transform(data []byte, grayscale bool, scale ScaleFunc) (out image.Image, w
 	if err != nil {
 		return nil, 0, 0, 0, errors.New("could not determine file type")
 	}
+	fmt.Println(kind.Extension)
+	fmt.Println(kind)
 	format := ImgFormat(kind.Extension)
 
 	var img image.Image

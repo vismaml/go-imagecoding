@@ -29,6 +29,7 @@ func Transform(data []byte, grayscale bool, scale ScaleFunc) (out image.Image, w
 	fmt.Println(kind.Extension)
 	fmt.Println(kind)
 	format := ImgFormat(kind.Extension)
+	fmt.Println(format)
 
 	var img image.Image
 	imagefile := bytes.NewReader(data)

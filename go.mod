@@ -1,6 +1,6 @@
 module github.com/e-conomic/go-imagecoding
 
-go 1.20
+go 1.24.1
 
 require (
 	github.com/Nr90/imgsim v0.0.0-20180202144352-5caa057144b0
@@ -11,7 +11,7 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/strukturag/libheif v1.11.0
 	go.uber.org/zap v1.26.0
-	golang.org/x/image v0.14.0
+	golang.org/x/image v0.18.0
 )
 
 require (

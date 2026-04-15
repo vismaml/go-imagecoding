@@ -1,6 +1,6 @@
 module github.com/e-conomic/go-imagecoding
 
-go 1.24.1
+go 1.26.2
 
 require (
 	github.com/Nr90/imgsim v0.0.0-20180202144352-5caa057144b0

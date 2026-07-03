@@ -11,7 +11,7 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/strukturag/libheif v1.11.0
 	go.uber.org/zap v1.26.0
-	golang.org/x/image v0.18.0
+	golang.org/x/image v0.43.0
 )
 
 require (

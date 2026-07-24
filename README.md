@@ -1,6 +1,6 @@
 # Go Image Coding
-[![Go Report Card](https://goreportcard.com/badge/github.com/e-conomic/go-imagecoding)](https://goreportcard.com/report/github.com/e-conomic/go-imagecoding)
-[![go-doc](https://godoc.org/github.com/e-conomic/go-imagecoding?status.svg)](https://godoc.org/github.com/e-conomic/go-imagecoding)
+[![Go Report Card](https://goreportcard.com/badge/github.com/vismaml/go-imagecoding)](https://goreportcard.com/report/github.com/vismaml/go-imagecoding)
+[![go-doc](https://godoc.org/github.com/vismaml/go-imagecoding?status.svg)](https://godoc.org/github.com/vismaml/go-imagecoding)
 
 Go (bindings for) image en-/de-coding using libraries found on debian and other
 common systems. Go comes with image processing built-in, written in go, but

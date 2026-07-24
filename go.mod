@@ -1,4 +1,4 @@
-module github.com/e-conomic/go-imagecoding
+module github.com/vismaml/go-imagecoding
 
 go 1.26.2
 

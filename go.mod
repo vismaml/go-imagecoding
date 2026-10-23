@@ -1,6 +1,6 @@
 module github.com/vismaml/go-imagecoding
 
-go 1.26.2
+go 1.26.10
 
 require (
 	github.com/Nr90/imgsim v0.0.0-20180202144352-5caa057144b0
